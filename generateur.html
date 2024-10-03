@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de blagues</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style CSS -->
+     <link rel="stylesheet" href="./assets/styles/generateur.css">
+</head>
+<body>
+
+    <!-- Corps de la page -->
+    <div id="card-container">
+        <div class="container mt-4">
+            <!-- Titre de la page -->
+            <h1 class="text-center">Générateur de blagues douteuses</h1>
+    
+            <!-- Bouton de génération de nouvelles blagues -->
+             <button type="submit" id="btnNewJoke" class="btn btn-primary">Nouvelle blague</button>
+    
+            <!-- Tableau HTML ou les blagues sont insérées -->
+            <table id="jokeTableau" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Catégorie</th>
+                        <th>Blague</th>
+                        <th>Édition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Les blagues seront ajoutées ici dynamiquement -->
+                </tbody>
+            </table>
+
+            <!-- Bouton pour quitter la page-->
+            <a href="./sortir.html"><button type="submit" id="btnLeavePage" class="btn btn-primary">Partir de cette environnement douteux</button></a>
+    
+         </div>
+    </div>
+     <!-- Corps de la page -->
+    
+    <!-- Script -->
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+</html>
