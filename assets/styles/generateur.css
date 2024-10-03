@@ -1,0 +1,57 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+  }
+
+
+#card-container {
+    width: 90%;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+
+#btnNewJoke {
+    margin: 20px;
+    background-color: #77A5F8;
+    border-color: #77A5F8;
+}
+
+#btnNewJoke:hover {
+    margin: 20px;
+    background-color: #D5A3FF;
+    border-color: #D5A3FF;
+}
+
+#jokeTableau {
+   
+    margin: 20px;
+    border:1px solid rgb(199, 199, 199);
+
+}
+
+.btn-delete {
+    background-color: #D5A3FF;
+    border-color: #D5A3FF;
+}
+
+.btn-delete:hover {
+    background-color: #77A5F8;
+    border-color: #77A5F8;
+}
+
+#btnLeavePage {
+    margin: 20px;
+    background-color: #77A5F8;
+    border-color: #77A5F8;
+}
+
+#btnLeavePage:hover {
+    background-color: #D5A3FF;
+    border-color: #D5A3FF;
+}
