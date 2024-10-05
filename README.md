@@ -14,6 +14,8 @@ Le projet est structuré de la manière suivante :
         ├── style.css  
         └── generateur.css  
         
+        ![image](https://github.com/user-attachments/assets/6ee3e7ba-fbba-48d1-ae06-e5934d25040c)
+
 accueil.html: Page d'accueil qui présente le générateur de blagues et invite l'utilisateur à démarrer.  
 generateur.html: Page où les blagues sont générées dynamiquement à partir d'une API et affichées dans un tableau.  
 sortir.html: Page de sortie qui remercie l'utilisateur pour sa visite et propose de revenir au générateur de blagues.  
