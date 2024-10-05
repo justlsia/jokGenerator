@@ -1,19 +1,19 @@
 Générateur de Blagues
 Ce projet consiste en un générateur de blagues douteuses, développé en HTML, CSS et JavaScript. Voici une description détaillée de son architecture et des choix techniques :  
 
-Structure du Projet  
+## Structure du Projet  
 Le projet est structuré de la manière suivante :  
-/
-├── accueil.html
-├── generateur.html
-├── sortir.html
-└── assets/
-    ├── scripts/
-    │   └── script.js
-    └── styles/
-        ├── style.css
-        └── generateur.css
-        
+
+    /
+    ├── accueil.html
+    ├── generateur.html
+    ├── sortir.html
+    └── assets/
+        ├── scripts/
+        │   └── script.js
+        └── styles/
+            ├── style.css
+            └── generateur.css
 
 accueil.html: Page d'accueil qui présente le générateur de blagues et invite l'utilisateur à démarrer.  
 generateur.html: Page où les blagues sont générées dynamiquement à partir d'une API et affichées dans un tableau.  
@@ -38,18 +38,3 @@ Clonez ce repository sur votre machine :
 git clone https://justlsia/jokGenerator.git  
 Ouvrez l'un des fichiers HTML (accueil.html, generateur.html, sortir.html) dans un navigateur web pour démarrer l'application.  
 Assurez-vous d'avoir une connexion internet active, car le générateur de blagues utilise une API externe pour récupérer les données.  
-
-### Structure du Projet
-
-Voici l'arborescence de fichiers de ce projet :
-
-    /
-    ├── accueil.html
-    ├── generateur.html
-    ├── sortir.html
-    └── assets/
-        ├── scripts/
-        │   └── script.js
-        └── styles/
-            ├── style.css
-            └── generateur.css
