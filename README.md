@@ -38,3 +38,5 @@ git clone https://justlsia/jokGenerator.git
 Ouvrez l'un des fichiers HTML (accueil.html, generateur.html, sortir.html) dans un navigateur web pour démarrer l'application.
 
 Assurez-vous d'avoir une connexion internet active, car le générateur de blagues utilise une API externe pour récupérer les données.
+test
+t
