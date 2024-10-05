@@ -3,18 +3,17 @@ Ce projet consiste en un générateur de blagues douteuses, développé en HTML,
 
 Structure du Projet  
 Le projet est structuré de la manière suivante :  
-/  
-├── accueil.html  
-├── generateur.html  
-├── sortir.html  
-└── assets/  
-    ├── scripts/  
-    │   └── script.js  
-    └── styles/  
-        ├── style.css  
-        └── generateur.css  
+    /
+    ├── accueil.html
+    ├── generateur.html
+    ├── sortir.html
+    └── assets/
+        ├── scripts/
+        │   └── script.js
+        └── styles/
+            ├── style.css
+            └── generateur.css
         
-        ![image](https://github.com/user-attachments/assets/6ee3e7ba-fbba-48d1-ae06-e5934d25040c)
 
 accueil.html: Page d'accueil qui présente le générateur de blagues et invite l'utilisateur à démarrer.  
 generateur.html: Page où les blagues sont générées dynamiquement à partir d'une API et affichées dans un tableau.  
