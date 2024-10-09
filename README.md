@@ -28,12 +28,12 @@ styles/: Fichiers CSS pour le style des pages HTML.
 style.css: Feuille de style pour accueil.html et sortir.html.  
 generateur.css: Feuille de style spécifique pour generateur.html.  
 
-Choix Techniques  
+##  Choix Techniques  
 Bootstrap: Utilisation de Bootstrap pour faciliter et embellir le développement.  
 JavaScript : Utilisation de JavaScript pour manipuler et ajouter dynamiquement les blagues générées dans le tableau.  
 CSS personnalisé: Utilisation de CSS pour styliser les pages et rendre l'interface utilisateur plus attrayante.  
 
-Installation et Utilisation  
+##  Installation et Utilisation  
 Pour exécuter ce projet localement :  
 
 Clonez ce repository sur votre machine :  
