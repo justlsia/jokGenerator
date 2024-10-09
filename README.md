@@ -10,10 +10,12 @@ Le projet est structuré de la manière suivante :
     ├── sortir.html
     └── assets/
         ├── scripts/
-        │   └── script.js
+        │   ├── script.js
+        │   └── accueil.js  
         └── styles/
             ├── style.css
             └── generateur.css
+
 
 accueil.html: Page d'accueil qui présente le générateur de blagues et invite l'utilisateur à démarrer.  
 generateur.html: Page où les blagues sont générées dynamiquement à partir d'une API et affichées dans un tableau.  
