@@ -1,4 +1,6 @@
-Générateur de Blagues
+Générateur de Blagues 
+
+## Description
 Ce projet consiste en un générateur de blagues douteuses, développé en HTML, CSS et JavaScript. Voici une description détaillée de son architecture et des choix techniques :  
 
 ## Structure du Projet  
