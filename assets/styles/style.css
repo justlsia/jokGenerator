@@ -1,5 +1,4 @@
-
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,26 +6,48 @@ body{
     background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
 }
 
+
+/* Contenu de la page*/
+
 #card-container {
     width: 60%;
     background: #fff;
     border-radius: 16px;
     padding: 30px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(184, 184, 184);
 }
 
-#container-cart h1, h2, p {
+
+/* Texte */
+
+#container-cart h1,
+h2,
+p {
     margin: 30px 0 50px 0;
 }
 
-#btnCommencer {
+
+/* Bouton */
+
+#btnStart {
     margin: 20px;
     background-color: #D5A3FF;
     border-color: #D5A3FF;
 }
 
-#btnRecommencer:hover {
+#btnStart:hover {
+    margin: 20px;
     background-color: #77A5F8;
     border-color: #77A5F8;
 }
 
+#btnRestart {
+    background-color: #D5A3FF;
+    border-color: #D5A3FF;
+}
+
+#btnRestart:hover {
+    background-color: #77A5F8;
+    border-color: #77A5F8;
+}
