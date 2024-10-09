@@ -1,52 +1,98 @@
-
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
-  }
+}
 
+/* Contenu de la page*/
 
 #card-container {
-    width: 90%;
+    width: 80%;
     background: #fff;
     border-radius: 16px;
     padding: 30px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(184, 184, 184);
 }
 
+/* Texte */
+
+.title {
+    margin: 15px 0 50px 0;
+}
+
+
+/* Contours */
+
+#jokeTable {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    margin: 0px 0 40px 0;
+}
+
+#jokeForm {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    margin: 10px 0 40px 0;
+}
+
+
+/* Tableau */
+
+#jokeTableau {
+    margin: 20px 0 50px 0;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+
+/* Boutons */
+
 #btnNewJoke {
-    margin: 20px;
     background-color: #77A5F8;
     border-color: #77A5F8;
 }
 
 #btnNewJoke:hover {
-    margin: 20px;
     background-color: #D5A3FF;
     border-color: #D5A3FF;
 }
 
-#jokeTableau {
-   
-    margin: 20px;
-    border:1px solid rgb(199, 199, 199);
+#btnClearTable {
+    margin: 30px;
+    background-color: #77A5F8;
+    border-color: #77A5F8;
+}
 
+#btnClearTable:hover {
+    background-color: #D5A3FF;
+    border-color: #D5A3FF;
 }
 
 .btn-delete {
+    background-color: #77A5F8;
+    border-color: #77A5F8;
+}
+
+.btn-delete:hover {
     background-color: #D5A3FF;
     border-color: #D5A3FF;
 }
 
-.btn-delete:hover {
+#btnAddJoke {
+    background-color: #D5A3FF;
+    border-color: #D5A3FF;
+}
+
+#btnAddJoke:hover {
     background-color: #77A5F8;
     border-color: #77A5F8;
 }
 
 #btnLeavePage {
-    margin: 20px;
     background-color: #77A5F8;
     border-color: #77A5F8;
 }
